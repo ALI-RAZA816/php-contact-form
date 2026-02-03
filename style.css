@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formBox{
+    margin: 0 auto !important;
+    margin-top: 1rem !important;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 15px #49494931;
+}
+
+#textarea{
+    height: 250px;
+}
