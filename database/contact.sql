@@ -1,15 +1,12 @@
 -- CREATE DATABSE
-CREATE DATABASE IF NOT EXISTS contact-form-db;
-
+CREATE DATABASE IF NOT EXISTS contact_form_db;
 -- USE EXIST DATABASE
-use contact-form-db;
-
+USE contact_form_db;
 -- CREATE TABLE
-
-CREATE TABLE `contactform`{
-    `id` INT(10) NOT NULL AUTO_INCREMENT,
+CREATE TABLE `contactform`(
+    `id` INT(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `name` VARCHAR(20) NOT NULL,
     `email` VARCHAR(30) NOT NULL,
     `subject` VARCHAR(100) NOT NULL,
     `message` VARCHAR(100) NOT NULL
-}
+);
