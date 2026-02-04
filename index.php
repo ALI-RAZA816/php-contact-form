@@ -15,24 +15,24 @@
         <div class="row">
             <div class="col-8 formBox" >
                 <h1 class="text-center">Contact Us</h1>
-                <form action="">
+                <form action="savedata.php" method="POST">
                    <div class="mb-4">
                         <label for="exampleFormControlInput1" class="form-label">Name*</label>
-                        <input type="text" class="form-control">
+                        <input type="text" name="name" class="form-control">
                     </div>
                    <div class="mb-4">
                         <label for="exampleFormControlInput1" class="form-label">Email*</label>
-                        <input type="text" class="form-control">
+                        <input type="text" name="email" class="form-control">
                     </div>
                    <div class="mb-4">
                         <label for="exampleFormControlInput1" class="form-label">Subject*</label>
-                        <input type="text" class="form-control">
+                        <input type="text" name="subject" class="form-control">
                     </div>
                    <div>
                         <label for="exampleFormControlInput1" class="form-label">Message*</label>
-                        <textarea name="" class="form-control" row="5" id="textarea"></textarea>
+                        <textarea name="description" class="form-control" row="5" id="textarea"></textarea>
                     </div>
-                    <button class="btn btn-success mt-4">Submit Message</button>
+                    <button name="submit" type="submit" class="btn btn-success mt-4">Submit Message</button>
                 </form>
             </div>
         </div>
