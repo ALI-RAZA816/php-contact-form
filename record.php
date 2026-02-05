@@ -52,7 +52,7 @@
                             <td><?php echo $row['message']?></td>
                             <td class="d-flex">
                                 <button class="btn btn-success me-2"><a href="" class="text-decoration-none text-white">Edit</a></button>
-                                <button class="btn btn-danger"><a href="" class="text-decoration-none text-white">Delete</a></button>
+                                <button class="btn btn-danger"><a href="delete-data.php?id=<?php echo $row['id']?>" class="text-decoration-none text-white">Delete</a></button>
                             </td>
                         </tr>
                         <?php }?>
