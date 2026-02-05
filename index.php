@@ -13,7 +13,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-8 formBox" >
+            <div class="col-6 formBox" >
                 <h1 class="text-center">Contact Us</h1>
                 <form action="savedata.php" method="POST">
                    <div class="mb-4">
@@ -30,9 +30,10 @@
                     </div>
                    <div>
                         <label for="exampleFormControlInput1" class="form-label">Message*</label>
-                        <textarea name="description" class="form-control" row="5" id="textarea"></textarea>
+                        <textarea name="description" class="form-control" id="textarea"></textarea>
                     </div>
                     <button name="submit" type="submit" class="btn btn-success mt-4">Submit Message</button>
+                    <button class="btn btn-primary d-block ms-auto"><a href="record.php" class="text-white text-decoration-none">View Record</a></button>
                 </form>
             </div>
         </div>
